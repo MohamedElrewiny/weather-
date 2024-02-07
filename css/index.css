@@ -1,0 +1,71 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #225265;
+}
+.logotxt{
+  color: white;
+}
+.header .container{
+  border-bottom: 1px dashed #fff;
+}
+.logotxt h5{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.logotxt p{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.find-location input[type="button"]{
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s;
+}
+.find-location input[type="button"]:hover{
+  color: #1e202b !important;
+}
+.forecast-header{
+  background-color: hsla(0, 0%, 0%, 0.411);
+}
+.forecast-content{
+  background-color: #1e202b;
+  height: calc(100% - 56px);
+}
+.row .forecast{
+  height: 285px;
+}
+.today .forecast-content{
+  background-color: #066186;
+  border: 1px solid #6a6868;
+}
+@media(max-width: 1000px){
+  .forecast{
+    width: 50% !important;
+  }
+  .footer{
+    position: static !important;
+  }
+}
+@media(max-width:767px){
+  forecast-container{
+    height: fit-content !important;
+  }
+  .forecast{
+    width: 100% !important;
+  }
+}
+.footer{
+  background-color: hsla(0, 0%, 0%, 0.411);
+}
